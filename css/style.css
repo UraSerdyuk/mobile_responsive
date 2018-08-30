@@ -1,3 +1,37 @@
+@font-face {
+    font-family: "Bold"; 
+    src: url("../fonts/FiraSans-Bold.woff") format("woff");
+    src: url("../fonts/FiraSans-Bold.woff2") format("woff2");  
+    font-style: normal; 
+    font-weight: normal; 
+    }
+@font-face {
+    font-family: "Italic"; 
+    src: url("../fonts/FiraSans-Italic.woff") format("woff");
+    src: url("../fonts/FiraSans-Italic.woff2") format("woff2");  
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+ @font-face {
+    font-family: "Regular"; 
+    src: url("../fonts/FiraSans-Regular.woff") format("woff"); 
+    src: url("../fonts/FiraSans-Regular.woff2") format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }    
+ @font-face {
+    font-family: "SemiBold"; 
+    src: url("../fonts/FiraSans-SemiBold.woff") format("woff"); 
+    src: url("../fonts/FiraSans-SemiBold.woff2") format("woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    /*
+        font-family: "Bold"; 
+        font-family: "SemiBold"; 
+        font-family: "Italic"; 
+        font-family: "Regular"; 
+    */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +40,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: "Regular"; 
     font-size: 16px;
 }
 img {
@@ -48,6 +82,7 @@ a {
 }
 .toogle {
     display: block;
+    font-family: Bold;
 }
 .navigation {
     background-color: #150e27;
@@ -56,4 +91,5 @@ a {
 }
 .tel_top {
     color: #fff;
+    font-family: "SemiBold"; 
 }
