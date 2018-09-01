@@ -93,3 +93,28 @@ a {
     color: #fff;
     font-family: "SemiBold"; 
 }
+.circle {
+    color: cadetblue;
+    margin: 0 6px;
+    font-family: "SemiBold";
+}
+.aside ,service{
+    padding: 0 5px;
+}
+.aside-title {
+    text-align: center;
+    font-family: "Bold"; 
+    margin: 25px 0 20px 0;
+}
+.aside-li {
+    display: flex;
+}
+.testh1 {
+    text-align: center;
+    font-family: "Bold"; 
+    margin: 25px 0 20px 0;
+}
+.materials {
+    font-family: "Regular";
+    font-size: 20px;
+}
