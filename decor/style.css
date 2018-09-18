@@ -1,0 +1,90 @@
+@import "../css/menu.css";
+/* start gallery
+===========================*/
+.gallery h1 {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(44, 48, 61, 255);
+}
+.gallery-img1 img {
+    margin: auto;
+    color: rgba(40, 40, 40, 255);
+
+}
+.img-prise {
+    text-align: center;
+    position: absolute;
+    background: #94d9c9;
+    opacity: .9;
+    width: 300.2px;
+    left: 3.1%;
+    color: rgba(206, 44, 82, 255);
+    font-size: 15pt;
+    font-weight: 600;
+    bottom: 0;
+}
+
+.gallery-img1 h3 {
+    text-align: center;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+.gallery-img1 {
+    margin-bottom: -25px;
+}
+.gallery-img2, .gallery-img3, .gallery-img4, .gallery-img5, .gallery-img6, .gallery-img7{
+    display: none;
+}
+.gallery-img-list{
+    position: relative;
+}
+/*
+.gallery-img-list::before {
+    content: "\f104" ;
+    font-family: "Font Awesome 5 Brands";
+    top: 130px;
+    left: 50px;
+    color: #949494;
+    position: relative;
+}
+.gallery-img-list::after {
+    content: "\f105" ;
+    font-family: "Font Awesome 5 Brands";
+    top: -190px;
+    right: -420px;
+    color: #949494;
+    position: relative;
+}
+*/
+.left {
+    top: 40%;
+    left: 15px;
+    font-size: 60px;
+    color: #47a7cc82;
+    position: absolute;
+    z-index: 100;
+}
+.right {
+    top: 40%;
+    right: 15px;
+    font-size: 60px;
+    color: #47a7cc82;
+    position: absolute;
+}
+.star-link ,.img-prise-old {
+    display: none;
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 190px;
+    right: 385px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    display: none;
+    z-index: 10;
+    border-top: 2px solid #d1d1d1;
+    border-left: 2px solid  #d1d1d1;
+
+}
