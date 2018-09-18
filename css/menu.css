@@ -42,6 +42,16 @@
 body {
     font-family: Regular,sans-serif;
     font-size: 16px;
+
+}
+a {
+    color: red; /* Цвет ссылок */
+}
+a:visited {
+    color: rgba(206, 206, 206, 0.28); /* Цвет посещенных ссылок */
+}
+a:active {
+    color: #b4c7ff; /* Цвет активных ссылок */
 }
 img {
     display: block;
