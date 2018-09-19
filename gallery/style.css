@@ -13,7 +13,7 @@
     color: rgba(40, 40, 40, 255);
     text-align: center;
 }
-.gallery-img-post {
+.gallery-img-list {
     position: relative;
 }
 .img-prise {
@@ -56,19 +56,29 @@
 }
 */
 .left {
-    top: 150px;
-    left: 60px;
+    top: 40%;
+    left: 15px;
     font-size: 40px;
-    color: #949494;
-    position: relative;
+    color: #47a7cc82;
+    position: absolute;
     z-index: 100;
 }
+.left:active {
+    -webkit-transform: scale(2.3);
+    -ms-transform: scale(2.3);
+    transform: scale(2.3);
+}
 .right {
-    top: -190px;
-    right: -260px;
+    top: 40%;
+    right: 15px;
     font-size: 40px;
-    color: #949494;
-    position: relative;
+    color: #47a7cc82;
+    position: absolute;
+}
+.right:active {
+    -webkit-transform: scale(2.3);
+    -ms-transform: scale(2.3);
+    transform: scale(2.3);
 }
 .star-link ,.img-prise-old {
     display: none;

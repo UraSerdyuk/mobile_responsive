@@ -20,25 +20,25 @@ let img = document.getElementById('img480');
 let arrowd = document.getElementById('arrowd');
 
 let num =1;
-if(num >= 6){
-    num =6;
+if(num >= 9){
+    num =9;
 }
 
 function Left() {
     if(num <=1){
-        num =6;
+        num =9;
     }
     num--;
-    img.src = `./img/img${num}.png`;
+    img.src = `img/first/img${num}.jpg`;
     console.log('show text left ');
 }
 
 function Right() {
     num++;
-    if(num > 6){
+    if(num > 9){
         num =1;
     }
-    img.src = `./img/img${num}.png`;
+    img.src = `img/first/img${num}.jpg`;
     console.log('show text right ');
 }
 
